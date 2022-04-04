@@ -22,7 +22,7 @@ async def on_ready():
     
     print(bot.user.name)
     print('봇이 시작됨')
-    game = discord.Game('.a 로 도움말을 확인해보세요')
+    game = discord.Game('.글씨')
     await bot.change_presence(status=discord.Status.online, activity=game)
     
 @bot.event
