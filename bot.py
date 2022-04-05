@@ -49,7 +49,7 @@ async def on_message(message: str):
     
 
 
-#
-bot.run(os.environ['bot_token1'])
+#ㅠㅐ
+bot.run(os.environ['bot_token'])
 
 
